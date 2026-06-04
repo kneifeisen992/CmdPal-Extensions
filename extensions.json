@@ -1,8 +1,8 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/.github/schemas/gallery.schema.json",
   "version": "1.0",
-  "generatedAt": "2026-05-10T13:34:20Z",
-  "extensionCount": 61,
+  "generatedAt": "2026-06-04T14:31:34Z",
+  "extensionCount": 59,
   "extensions": [
     {
       "id": "8lwxpg.process-killer",
@@ -67,10 +67,6 @@
         {
           "type": "msstore",
           "id": "9PC2T04G3V9C"
-        },
-        {
-          "type": "url",
-          "uri": "https://github.com/Advaith3600/Command-Palette-Currency-Converter/releases"
         }
       ],
       "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/advaith/currency-converter/icon.png",
@@ -84,35 +80,38 @@
       "addedAt": "2026-04-15"
     },
     {
-      "id": "atkaksoy501.portpilot",
-      "title": "PortPilot",
-      "shortDescription": "Find and free dev server ports directly from PowerToys Command Palette.",
-      "description": "PortPilot helps developers quickly find and free busy dev server ports from inside PowerToys Command Palette. It scans TCP listening ports in the common 3000-10000 development range, shows the owning process name and PID, supports fuzzy search, and asks for confirmation before terminating a process. You can also pin PortPilot to the Command Palette dock for one-click access.",
+      "id": "alexdresko.browser-tabs",
+      "title": "Browser Tabs",
+      "shortDescription": "Search and switch to open Chrome and Edge tabs from Windows Command Palette.",
+      "description": "Browser Tabs integrates with Windows Command Palette to make open browser tabs searchable from one launcher. It discovers open Chrome and Microsoft Edge tabs on your Windows desktop, shows matching tabs in Command Palette, and switches directly to the selected tab.\n\nThis extension requires Microsoft PowerToys Command Palette to be installed and enabled. Browser tab discovery runs locally on your device using Windows UI Automation. Browser Tabs does not send your browser tab data to a remote service.",
       "author": {
-        "name": "Atakan Aksoy",
-        "url": "https://github.com/atkaksoy501"
+        "name": "Alex Dresko",
+        "url": "https://github.com/alexdresko/wcp-browsertabs"
       },
-      "homepage": "https://github.com/atkaksoy501/PortPilot",
+      "homepage": "https://github.com/alexdresko/wcp-browsertabs",
       "tags": [
-        "ports",
-        "processes",
-        "powertoys",
-        "windows",
-        "developer"
+        "browser-tabs",
+        "chrome",
+        "edge",
+        "productivity",
+        "tabs"
       ],
       "categories": [
-        "developer-tools",
         "productivity",
         "utilities-and-tools"
       ],
       "installSources": [
         {
-          "type": "url",
-          "uri": "https://github.com/atkaksoy501/PortPilot/releases/latest"
+          "type": "msstore",
+          "id": "9N7BMMLTGFWX"
         }
       ],
-      "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/atkaksoy501/portpilot/icon.png",
-      "addedAt": "2026-04-27"
+      "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/alexdresko/browser-tabs/icon.png",
+      "screenshotUrls": [
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/alexdresko/browser-tabs/screenshots/01-listing.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/alexdresko/browser-tabs/screenshots/02-activating.png"
+      ],
+      "addedAt": "2026-06-04"
     },
     {
       "id": "baldbeardedbuilder.weather",
@@ -169,10 +168,6 @@
         {
           "type": "msstore",
           "id": "9nj54mwrrn30"
-        },
-        {
-          "type": "url",
-          "uri": "https://github.com/bdbai/Base64ConverterExtension/releases/tag/v0.0.1.0"
         }
       ],
       "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/bdbai/base64-converter/icon.png",
@@ -273,10 +268,6 @@
           "id": "davidegiacometti.EdgeFavoritesForCmdPal"
         },
         {
-          "type": "url",
-          "uri": "https://github.com/davidegiacometti/CmdPal-Extensions/releases"
-        },
-        {
           "type": "msstore",
           "id": "9NQWBR1DJ2PQ"
         }
@@ -311,10 +302,6 @@
         {
           "type": "winget",
           "id": "davidegiacometti.VisualStudioForCmdPal"
-        },
-        {
-          "type": "url",
-          "uri": "https://github.com/davidegiacometti/CmdPal-Extensions/releases"
         },
         {
           "type": "msstore",
@@ -358,10 +345,6 @@
         {
           "type": "msstore",
           "id": "9PPGQ6TB8DMT"
-        },
-        {
-          "type": "url",
-          "uri": "https://github.com/Daydreamer-riri/QRCode-CmdPal/releases"
         }
       ],
       "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/daydreamer-riri/qrcode/icon.png",
@@ -434,10 +417,6 @@
         {
           "type": "msstore",
           "id": "9PN3KMW042J3"
-        },
-        {
-          "type": "url",
-          "uri": "https://github.com/determ1ne/CmdPalScripter/releases/latest"
         }
       ],
       "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/determ1ne/scripter/icon.png",
@@ -445,40 +424,6 @@
         "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/determ1ne/scripter/screenshots/01-main-view.png"
       ],
       "addedAt": "2026-04-27"
-    },
-    {
-      "id": "dlnilsson.cmdpal-yubico-oath-otp",
-      "title": "YubiKey OATH OTP",
-      "shortDescription": "Display TOTP codes from OATH accounts stored on your YubiKey in PowerToys Command Palette.",
-      "description": "YubiKey OATH OTP integrates YubiKey hardware-based TOTP codes directly into the PowerToys Command Palette.\n\nFeatures:\n- Lists all OATH/TOTP accounts stored on your connected YubiKey\n- Generates current one-time passwords via the ykman CLI\n- Click any account to instantly copy the code to clipboard\n- Smart 10-second caching for minimal latency\n- Configurable ykman path and device ID for multi-key setups\n\nRequirements:\n- YubiKey hardware with OATH credentials configured\n- YubiKey Manager CLI (ykman) installed and in PATH (or path configured in settings)",
-      "author": {
-        "name": "Daniel Nilsson",
-        "url": "https://github.com/dlnilsson"
-      },
-      "homepage": "https://github.com/dlnilsson/cmdpal.yubicoOauthOTP",
-      "tags": [
-        "yubikey",
-        "otp",
-        "totp",
-        "2fa",
-        "security"
-      ],
-      "categories": [
-        "developer-tools",
-        "utilities-and-tools"
-      ],
-      "installSources": [
-        {
-          "type": "url",
-          "uri": "https://github.com/dlnilsson/cmdpal.yubicoOauthOTP/releases/latest"
-        }
-      ],
-      "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/dlnilsson/cmdpal-yubico-oath-otp/icon.png",
-      "screenshotUrls": [
-        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/dlnilsson/cmdpal-yubico-oath-otp/screenshots/01-list.png",
-        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/dlnilsson/cmdpal-yubico-oath-otp/screenshots/02-settings.png"
-      ],
-      "addedAt": "2026-04-28"
     },
     {
       "id": "fefedu973.universal-search-suggestions",
@@ -505,10 +450,6 @@
         {
           "type": "msstore",
           "id": "9nccznpqb9s6"
-        },
-        {
-          "type": "url",
-          "uri": "https://github.com/Fefedu973/UniversalSearchSuggestions/releases/latest"
         }
       ],
       "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/fefedu973/universal-search-suggestions/icon.png",
@@ -581,10 +522,6 @@
         {
           "type": "msstore",
           "id": "9P5KS8T80MV3"
-        },
-        {
-          "type": "url",
-          "uri": "https://github.com/hoobio/command-palette-bitwarden/releases/latest"
         }
       ],
       "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/hoobio/bitwarden/icon.png",
@@ -635,10 +572,6 @@
         {
           "type": "msstore",
           "id": "9MWGJ4GFR31B"
-        },
-        {
-          "type": "url",
-          "uri": "https://github.com/Illustar0/SourceSwitch.Extension.Palette/releases/latest"
         }
       ],
       "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/illustar0/sourceswitch/icon.png",
@@ -1053,20 +986,21 @@
       "addedAt": "2026-05-10"
     },
     {
-      "id": "kusutori.bitwarden-for-command-palette",
-      "title": "Bitwarden",
-      "shortDescription": "Integrates your Bitwarden vault into Windows PowerToys. Search, access, and manage credentials directly from the Command Palette.",
-      "description": "Bitwarden For Command Palette integrates with the Windows Command Palette to bring your password vault directly into your workflow. It allows you to search logins, cards, and identities, copy TOTP codes with live countdowns, and manage vault items (CRUD) with lightning speed. Supports Windows Hello (via bw-bio) and custom CLI configurations.",
+      "id": "lamteteeow.powertranslate",
+      "title": "Power Translate",
+      "shortDescription": "Translate text instantly using DeepL in Command Palette",
+      "description": "A lightweight translation extension for Microsoft PowerToys Command Palette. Translates text between 30+ language pairs using DeepL's neural translation engine. Features auto-detect source language, clipboard integration, and encrypted API key storage.",
       "author": {
-        "name": "kusutori",
-        "url": "https://github.com/kusutori"
+        "name": "lamteteeow",
+        "url": "https://github.com/lamteteeow"
       },
-      "homepage": "https://github.com/kusutori/BitwardenForCommandPalette",
+      "homepage": "https://github.com/lamteteeow/PowerTranslate",
       "tags": [
-        "bitwarden",
-        "powertoys",
-        "bitwarden-cli",
-        "command-palette"
+        "translation",
+        "deepl",
+        "productivity",
+        "language",
+        "powertoys"
       ],
       "categories": [
         "productivity",
@@ -1074,18 +1008,21 @@
       ],
       "installSources": [
         {
-          "type": "url",
-          "uri": "https://github.com/kusutori/BitwardenForCommandPalette/releases/latest"
+          "type": "winget",
+          "id": "lamteteeow.PowerTranslate"
+        },
+        {
+          "type": "msstore",
+          "id": "9PD2C31NX7Z8"
         }
       ],
-      "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/kusutori/bitwarden-for-command-palette/icon.png",
+      "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/lamteteeow/powertranslate/icon.png",
       "screenshotUrls": [
-        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/kusutori/bitwarden-for-command-palette/screenshots/01-login.png",
-        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/kusutori/bitwarden-for-command-palette/screenshots/02-main.png",
-        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/kusutori/bitwarden-for-command-palette/screenshots/03-generate.png",
-        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/kusutori/bitwarden-for-command-palette/screenshots/04-settings.png"
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/lamteteeow/powertranslate/screenshots/01-translation-ui.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/lamteteeow/powertranslate/screenshots/02-language-select.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/lamteteeow/powertranslate/screenshots/03-settings.png"
       ],
-      "addedAt": "2026-04-28"
+      "addedAt": "2026-06-04"
     },
     {
       "id": "licon4812.aria2-extension",
@@ -1237,10 +1174,6 @@
         {
           "type": "msstore",
           "id": "9npk6ksdlc81"
-        },
-        {
-          "type": "url",
-          "uri": "https://github.com/LioQing/llm-extension-for-cmd-pal/releases"
         }
       ],
       "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/lioqing/llm-extension/icon.png",
@@ -1251,6 +1184,38 @@
         "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/lioqing/llm-extension/screenshots/04-config-commands.png"
       ],
       "addedAt": "2026-04-21"
+    },
+    {
+      "id": "maoyeedy.cmdpal-unity-extension",
+      "title": "Unity Project Launcher",
+      "shortDescription": "Open and launch Unity Hub recent projects from Command Palette.",
+      "description": "A Command Palette extension for browsing Unity Hub recent projects and launching the Unity Editor directly. It reads the Unity Hub projects list and helps you reopen projects quickly from PowerToys Command Palette.",
+      "author": {
+        "name": "Maoyeedy",
+        "url": "https://github.com/maoyeedy"
+      },
+      "homepage": "https://github.com/maoyeedy/CommandPaletteUnity",
+      "tags": [
+        "unity",
+        "projects",
+        "launcher"
+      ],
+      "categories": [
+        "developer-tools",
+        "productivity",
+        "utilities-and-tools"
+      ],
+      "installSources": [
+        {
+          "type": "msstore",
+          "id": "9NVSJZ72LTZ3"
+        }
+      ],
+      "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/maoyeedy/cmdpal-unity-extension/icon.png",
+      "screenshotUrls": [
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/maoyeedy/cmdpal-unity-extension/screenshots/01-main.png"
+      ],
+      "addedAt": "2026-06-04"
     },
     {
       "id": "michaeljolley.random-dad-jokes",
@@ -1333,10 +1298,6 @@
         {
           "type": "winget",
           "id": "Microsoft.CmdPalAzureExtension"
-        },
-        {
-          "type": "url",
-          "uri": "https://github.com/microsoft/CmdPalAzureExtension/releases"
         }
       ],
       "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/microsoft/azure-extension/icon.png",
@@ -1366,10 +1327,6 @@
         {
           "type": "winget",
           "id": "Microsoft.CmdPalGitHubExtension"
-        },
-        {
-          "type": "url",
-          "uri": "https://github.com/microsoft/CmdPalGitHubExtension/releases"
         }
       ],
       "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/microsoft/github-extension/icon.png",
@@ -1400,10 +1357,6 @@
         {
           "type": "msstore",
           "id": "9P4L93228V63"
-        },
-        {
-          "type": "url",
-          "uri": "https://github.com/nickknissen/TablePlusCommandPalette/releases"
         }
       ],
       "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/nickknissen/tableplus-command-palette/icon.png",
@@ -1441,10 +1394,6 @@
         {
           "type": "winget",
           "id": "nickknissen.TailscaleCommandPalette"
-        },
-        {
-          "type": "url",
-          "uri": "https://github.com/nickknissen/TailscaleCommandPalette/releases"
         }
       ],
       "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/nickknissen/tailscale-command-palette/icon.png",
@@ -1479,10 +1428,6 @@
         {
           "type": "msstore",
           "id": "9P2JPD7XDB3C"
-        },
-        {
-          "type": "url",
-          "uri": "https://github.com/niels9001/CmdPal-EventViewer/releases"
         }
       ],
       "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/nielslaute/event-viewer/icon.png",
@@ -1643,10 +1588,6 @@
         {
           "type": "msstore",
           "id": "9NMJ8S70L69M"
-        },
-        {
-          "type": "url",
-          "uri": "https://github.com/ruslanlap/CmdPal-Definition/releases/latest"
         }
       ],
       "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/ruslanlap/definition/icon.png",
@@ -1686,10 +1627,6 @@
         {
           "type": "winget",
           "id": "15722UsefulApp.PortForCommandPalette"
-        },
-        {
-          "type": "url",
-          "uri": "https://github.com/tanchekwei/PortForCommandPalette/"
         }
       ],
       "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/tanchekwei/port/icon.png",
@@ -1729,10 +1666,6 @@
         {
           "type": "winget",
           "id": "15722UsefulApp.WorkspaceLauncherForVSCode"
-        },
-        {
-          "type": "url",
-          "uri": "https://github.com/tanchekwei/VisualStudioCodeForCommandPalette/releases"
         }
       ],
       "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/tanchekwei/visual-studio-code/icon.png",
@@ -1741,78 +1674,6 @@
         "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/tanchekwei/visual-studio-code/screenshots/02-screenshot2.png"
       ],
       "addedAt": "2026-04-15"
-    },
-    {
-      "id": "thestarslayer.define-word-extension",
-      "title": "Define Word",
-      "shortDescription": "Type a word to get its definition",
-      "description": "A Command Palette (PowerToys) extension that provides on-the-fly definitions!\nIt uses dictionaryapi.dev's free API to retrieve definitions for the word, and display as list items for each definition of the word along with its part of speech.\nFor longer definitions, you can view the details pane of the list item by clicking `Ctrl` + `Enter`",
-      "author": {
-        "name": "Lalith Sri Sai Manda",
-        "url": "https://github.com/TheStarSlayer"
-      },
-      "homepage": "https://github.com/TheStarSlayer/Define-Word-Extension",
-      "tags": [
-        "definitions",
-        "dictionary",
-        "words",
-        "meaning",
-        "vocabulary"
-      ],
-      "categories": [
-        "productivity",
-        "utilities-and-tools",
-        "education"
-      ],
-      "installSources": [
-        {
-          "type": "url",
-          "uri": "https://github.com/TheStarSlayer/Define-Word-Extension/releases"
-        }
-      ],
-      "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/thestarslayer/define-word-extension/icon.jpeg",
-      "screenshotUrls": [
-        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/thestarslayer/define-word-extension/screenshots/01-entry.png",
-        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/thestarslayer/define-word-extension/screenshots/02-loading.png",
-        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/thestarslayer/define-word-extension/screenshots/03-no def found.png",
-        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/thestarslayer/define-word-extension/screenshots/04-list results.png",
-        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/thestarslayer/define-word-extension/screenshots/05-full results.png"
-      ],
-      "addedAt": "2026-04-28"
-    },
-    {
-      "id": "weimin96.translation-extension",
-      "title": "Translation",
-      "shortDescription": "Quickly translate between Chinese and English in PowerToys Command Palette.",
-      "description": "Translation is a PowerToys Command Palette extension for fast text translation in Windows workflows. It automatically detects Chinese and English text, supports bidirectional translation, provides a unified settings page for provider credentials, and works with translation providers including Baidu Translate, DeepSeek, Zhipu AI, and MiniMax.",
-      "author": {
-        "name": "weimin96",
-        "url": "https://github.com/weimin96"
-      },
-      "homepage": "https://github.com/weimin96/CmdPal-TranslationExtension",
-      "tags": [
-        "translation",
-        "chinese",
-        "ai",
-        "productivity",
-        "windows"
-      ],
-      "categories": [
-        "productivity",
-        "utilities-and-tools"
-      ],
-      "installSources": [
-        {
-          "type": "url",
-          "uri": "https://github.com/weimin96/CmdPal-TranslationExtension/releases/latest"
-        }
-      ],
-      "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/weimin96/translation-extension/icon.png",
-      "screenshotUrls": [
-        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/weimin96/translation-extension/screenshots/01-zh-to-en.png",
-        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/weimin96/translation-extension/screenshots/02-en-to-zh.png"
-      ],
-      "addedAt": "2026-04-27"
     },
     {
       "id": "xisage.godot-engine",
@@ -1867,10 +1728,6 @@
         {
           "type": "winget",
           "id": "zadjii.HackerNewsforCommandPalette"
-        },
-        {
-          "type": "url",
-          "uri": "https://github.com/zadjii/CmdPalExtensions/releases"
         }
       ],
       "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/zadjii/hacker-news/icon.png",
@@ -1899,10 +1756,6 @@
         {
           "type": "winget",
           "id": "zadjii.MastodonForCmdPal"
-        },
-        {
-          "type": "url",
-          "uri": "https://github.com/zadjii/CmdPalExtensions/releases"
         }
       ],
       "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/zadjii/mastodon/icon.png",
@@ -1931,10 +1784,6 @@
         {
           "type": "winget",
           "id": "zadjii.ObsidianNotesExtension"
-        },
-        {
-          "type": "url",
-          "uri": "https://github.com/zadjii/CmdPalExtensions/releases"
         }
       ],
       "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/zadjii/obsidian-notes/icon.png",
@@ -1964,10 +1813,6 @@
         {
           "type": "winget",
           "id": "zadjii.SegoeIcons"
-        },
-        {
-          "type": "url",
-          "uri": "https://github.com/zadjii/CmdPalExtensions/releases"
         }
       ],
       "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/zadjii/segoe-icons/icon.png",
@@ -1997,10 +1842,6 @@
         {
           "type": "winget",
           "id": "zadjii.SpongeBotForCommandPalette"
-        },
-        {
-          "type": "url",
-          "uri": "https://github.com/zadjii/CmdPalExtensions/releases"
         }
       ],
       "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/zadjii/spongebot/icon.png",
@@ -2029,10 +1870,6 @@
         {
           "type": "winget",
           "id": "zadjii.TMDBSearch"
-        },
-        {
-          "type": "url",
-          "uri": "https://github.com/zadjii/CmdPalExtensions/releases"
         }
       ],
       "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/zadjii/tmdb-search/icon.png",

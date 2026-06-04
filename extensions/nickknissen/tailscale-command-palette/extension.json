@@ -29,10 +29,6 @@
     {
       "type": "winget",
       "id": "nickknissen.TailscaleCommandPalette"
-    },
-    {
-      "type": "url",
-      "uri": "https://github.com/nickknissen/TailscaleCommandPalette/releases"
     }
   ]
 }

@@ -16,10 +16,6 @@
     {
       "type": "msstore",
       "id": "9nj54mwrrn30"
-    },
-    {
-        "type": "url",
-        "uri": "https://github.com/bdbai/Base64ConverterExtension/releases/tag/v0.0.1.0"
     }
   ]
 }
