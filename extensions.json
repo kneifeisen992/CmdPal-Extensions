@@ -1,8 +1,8 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/.github/schemas/gallery.schema.json",
   "version": "1.0",
-  "generatedAt": "2026-06-04T14:31:34Z",
-  "extensionCount": 59,
+  "generatedAt": "2026-06-08T16:14:33Z",
+  "extensionCount": 60,
   "extensions": [
     {
       "id": "8lwxpg.process-killer",
@@ -144,6 +144,11 @@
         }
       ],
       "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/baldbeardedbuilder/weather/icon.png",
+      "screenshotUrls": [
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/baldbeardedbuilder/weather/screenshots/screen1.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/baldbeardedbuilder/weather/screenshots/screen2.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/baldbeardedbuilder/weather/screenshots/screen3.png"
+      ],
       "addedAt": "2026-04-12"
     },
     {
@@ -1674,6 +1679,43 @@
         "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/tanchekwei/visual-studio-code/screenshots/02-screenshot2.png"
       ],
       "addedAt": "2026-04-15"
+    },
+    {
+      "id": "thestarslayer.define-word-extension",
+      "title": "Define Word",
+      "shortDescription": "Type a word to get its definition",
+      "description": "A Command Palette (PowerToys) extension that provides on-the-fly definitions!\nIt uses dictionaryapi.dev's free API to retrieve definitions for the word, and display as list items for each definition of the word along with its part of speech.\nFor longer definitions, you can view the details pane of the list item by clicking `Ctrl` + `Enter`",
+      "author": {
+        "name": "Lalith Sri Sai Manda",
+        "url": "https://github.com/TheStarSlayer"
+      },
+      "homepage": "https://github.com/TheStarSlayer/Define-Word-Extension",
+      "tags": [
+        "definitions",
+        "dictionary",
+        "words",
+        "meaning",
+        "vocabulary"
+      ],
+      "categories": [
+        "productivity",
+        "utilities-and-tools",
+        "education"
+      ],
+      "installSources": [
+        {
+          "type": "msstore",
+          "id": "9pdc60w12dzh"
+        }
+      ],
+      "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/thestarslayer/define-word-extension/icon.jpg",
+      "screenshotUrls": [
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/thestarslayer/define-word-extension/screenshots/01-entry.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/thestarslayer/define-word-extension/screenshots/02-loading.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/thestarslayer/define-word-extension/screenshots/03-results.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/thestarslayer/define-word-extension/screenshots/04-no def found.png"
+      ],
+      "addedAt": "2026-06-08"
     },
     {
       "id": "xisage.godot-engine",
